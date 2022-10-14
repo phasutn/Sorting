@@ -7,15 +7,15 @@ void insertion(int *a,int N){
     value = a[i];
     for(j=i-1;j>=0 && a[j]>value;j--){
       a[j+1] = a[j];
-      count++;
-      change++;
+      //count++;
+      //change++;
       //display(a, argc);
       //cout<<endl;
     }
     a[j+1] = value;
-    count++;
-    change++;
+    //count++;
+    //change++;
   }
-  cout<<count<<endl;
-  cout<<change<<endl;
+  //cout<<count<<endl;
+  //cout<<change<<endl;
 }

@@ -22,9 +22,9 @@ int main(int argc,char** argv) {
   
   //bubble(a, argc-1);
   
-  insertion (a,argc-1);
+  //insertion (a,argc-1);
 
-  //selection(a,argc-1);
+  selection(a,argc-1);
   
   cout<<"After sorted: ";
   display(a, argc);
