@@ -24,7 +24,7 @@ int main(int argc,char** argv) {
   
   //insertion (a,argc-1);
 
-  selection(a,argc-1);
+  //selection(a,argc-1);
   
   cout<<"After sorted: ";
   display(a, argc);

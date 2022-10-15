@@ -15,7 +15,6 @@ void selection(int *a, int N){
     }
     swap(a[value],a[i]);
     //display(a, argc);
-    //display(a,argc);
     //cout<<endl;
   }
 }
